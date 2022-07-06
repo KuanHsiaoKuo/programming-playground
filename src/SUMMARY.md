@@ -9,6 +9,7 @@
         - [sql语言](Database/sql.md)
         - [mysql](Database/mysql.md)
         - [postgresql](Database/postgresql.md)
+        - [sqlite](Database/sqlite.md)
         - [mongodb](Database/mongodb.md)
         - [arrangodb](Database/arrangodb.md)
         - [neo4j](Database/neo4j.md)

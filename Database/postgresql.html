@@ -4,7 +4,10 @@
     <!-- Book generated using mdBook -->
     <meta charset="UTF-8">
     <title>postgresql - Programming Playground 🎡</title>
+
+
     <!-- Custom HTML head -->
+    
     <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
     <meta name="description" content="主要包含编程常用工具、组件的配置写法">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -16,9 +19,11 @@
     <link rel="stylesheet" href="../css/general.css">
     <link rel="stylesheet" href="../css/chrome.css">
         <link rel="stylesheet" href="../css/print.css" media="print">
+
     <!-- Fonts -->
     <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
         <link rel="stylesheet" href="../fonts/fonts.css">
+
     <!-- Highlight.js Stylesheets -->
     <link rel="stylesheet" href="../highlight.css">
     <link rel="stylesheet" href="../tomorrow-night.css">
@@ -27,6 +32,7 @@
     <!-- Custom theme stylesheets -->
         <link rel="stylesheet" href="../assets/pagetoc/pagetoc_style.css">
         <link rel="stylesheet" href="../assets/css/mdbook-admonish.css">
+
         <!-- MathJax -->
         <script async type="text/javascript"
                 src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
@@ -89,7 +95,7 @@
 
 <nav id="sidebar" class="sidebar" aria-label="Table of contents">
     <div class="sidebar-scrollbox">
-        <ol class="chapter"><li class="chapter-item expanded affix "><a href="../../index.html">总览</a></li><li class="chapter-item expanded "><a href="../Linux/linux_overview.html"><strong aria-hidden="true">1.</strong> Linux相关知识概览</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../Linux/linux_commands.html"><strong aria-hidden="true">1.1.</strong> 常用指令</a></li></ol></li><li class="chapter-item expanded "><a href="../Docker/docker_underly.html"><strong aria-hidden="true">2.</strong> Docker底层</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../Docker/docker_run.html"><strong aria-hidden="true">2.1.</strong> docker_run</a></li><li class="chapter-item expanded "><a href="../Docker/docker_compose_stack.html"><strong aria-hidden="true">2.2.</strong> docker-compose/stack</a></li><li class="chapter-item expanded "><a href="../Docker/kubernetes.html"><strong aria-hidden="true">2.3.</strong> kubernetes(k8s)</a></li></ol></li><li class="chapter-item expanded "><a href="../Database/database_overview.html"><strong aria-hidden="true">3.</strong> 数据库概览</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../Database/sql.html"><strong aria-hidden="true">3.1.</strong> sql语言</a></li><li class="chapter-item expanded "><a href="../Database/mysql.html"><strong aria-hidden="true">3.2.</strong> mysql</a></li><li class="chapter-item expanded "><a href="../Database/postgresql.html" class="active"><strong aria-hidden="true">3.3.</strong> postgresql</a></li><li class="chapter-item expanded "><a href="../Database/sqlite.html"><strong aria-hidden="true">3.4.</strong> sqlite</a></li><li class="chapter-item expanded "><a href="../Database/mongodb.html"><strong aria-hidden="true">3.5.</strong> mongodb</a></li><li class="chapter-item expanded "><a href="../Database/arrangodb.html"><strong aria-hidden="true">3.6.</strong> arrangodb</a></li><li class="chapter-item expanded "><a href="../Database/neo4j.html"><strong aria-hidden="true">3.7.</strong> neo4j</a></li></ol></li><li class="chapter-item expanded "><a href="../Network/network_about.html"><strong aria-hidden="true">4.</strong> 网络相关</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../Network/nginx.html"><strong aria-hidden="true">4.1.</strong> nginx</a></li><li class="chapter-item expanded "><a href="../Network/openresty.html"><strong aria-hidden="true">4.2.</strong> openresty</a></li></ol></li><li class="chapter-item expanded "><a href="../Performance/performance.html"><strong aria-hidden="true">5.</strong> 高性能</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../Performance/redis.html"><strong aria-hidden="true">5.1.</strong> redis</a></li><li class="chapter-item expanded "><a href="../Performance/rabbitmq.html"><strong aria-hidden="true">5.2.</strong> rabbitmq</a></li></ol></li><li class="chapter-item expanded "><a href="../checklist.html">Checklist</a></li></ol>
+        <ol class="chapter"><li class="chapter-item expanded "><a href="../../index.html"><strong aria-hidden="true">1.</strong> 总览</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../Linux/linux_overview.html"><strong aria-hidden="true">1.1.</strong> Linux相关知识概览</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../Linux/linux_commands.html"><strong aria-hidden="true">1.1.1.</strong> 常用指令</a></li></ol></li><li class="chapter-item expanded "><a href="../Docker/docker_underly.html"><strong aria-hidden="true">1.2.</strong> Docker底层</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../Docker/docker_run.html"><strong aria-hidden="true">1.2.1.</strong> docker_run</a></li><li class="chapter-item expanded "><a href="../Docker/docker_compose_stack.html"><strong aria-hidden="true">1.2.2.</strong> docker-compose/stack</a></li><li class="chapter-item expanded "><a href="../Docker/kubernetes.html"><strong aria-hidden="true">1.2.3.</strong> kubernetes(k8s)</a></li></ol></li><li class="chapter-item expanded "><a href="../Database/database_overview.html"><strong aria-hidden="true">1.3.</strong> 数据库概览</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../Database/sql.html"><strong aria-hidden="true">1.3.1.</strong> sql语言</a></li><li class="chapter-item expanded "><a href="../Database/mysql.html"><strong aria-hidden="true">1.3.2.</strong> mysql</a></li><li class="chapter-item expanded "><a href="../Database/postgresql.html" class="active"><strong aria-hidden="true">1.3.3.</strong> postgresql</a></li><li class="chapter-item expanded "><a href="../Database/sqlite.html"><strong aria-hidden="true">1.3.4.</strong> sqlite</a></li><li class="chapter-item expanded "><a href="../Database/mongodb.html"><strong aria-hidden="true">1.3.5.</strong> mongodb</a></li><li class="chapter-item expanded "><a href="../Database/arrangodb.html"><strong aria-hidden="true">1.3.6.</strong> arrangodb</a></li><li class="chapter-item expanded "><a href="../Database/neo4j.html"><strong aria-hidden="true">1.3.7.</strong> neo4j</a></li></ol></li><li class="chapter-item expanded "><a href="../Network/network_about.html"><strong aria-hidden="true">1.4.</strong> 网络相关</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../Network/nginx.html"><strong aria-hidden="true">1.4.1.</strong> nginx</a></li><li class="chapter-item expanded "><a href="../Network/openresty.html"><strong aria-hidden="true">1.4.2.</strong> openresty</a></li></ol></li><li class="chapter-item expanded "><a href="../Performance/performance.html"><strong aria-hidden="true">1.5.</strong> 高性能</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../Performance/redis.html"><strong aria-hidden="true">1.5.1.</strong> redis</a></li><li class="chapter-item expanded "><a href="../Performance/rabbitmq.html"><strong aria-hidden="true">1.5.2.</strong> rabbitmq</a></li></ol></li></ol></li><li class="chapter-item expanded "><a href="../checklist.html">Checklist</a></li></ol>
     </div>
     <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
 </nav>
@@ -97,7 +103,7 @@
 <div id="page-wrapper" class="page-wrapper">
 
     <div class="page">
-        <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar-hover-placeholder"></div>
         <div id="menu-bar" class="menu-bar sticky bordered">
             <div class="left-buttons">
                 <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents"
@@ -133,7 +139,7 @@
             </div>
 
             <h1 class="menu-title">Programming Playground 🎡</h1>
-            <h4 class="menu-bar"><a href="https://kuanhsiaokuo.github.io/think-tool-kit/">保持批判 有所取舍 方见真我</a> -- 练武不练功
+            <h4 class="menu-bar"><a href="https://kuanhsiaokuo.github.io/think-tool-kit/">保持批判，有所取舍，知行合一, 方见真我</a> -- 练武不练功
                 到头一场空 -- 《赛博英雄传》 </h4>
             <div class="right-buttons">
                     <a href="../print.html" title="Print this book" aria-label="Print this book">
@@ -157,6 +163,7 @@
                     </ul>
                 </div>
             </div>
+
         <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
         <script type="text/javascript">
             document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
@@ -189,10 +196,12 @@
                        title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                         <i class="fa fa-angle-left"></i>
                     </a>
+
                     <a rel="next" href="../Database/sqlite.html" class="mobile-nav-chapters next"
                        title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                         <i class="fa fa-angle-right"></i>
                     </a>
+
                 <div style="clear: both"></div>
             </nav>
         </div>
@@ -203,6 +212,7 @@
                aria-label="Previous chapter" aria-keyshortcuts="Left">
                 <i class="fa fa-angle-left"></i>
             </a>
+
             <a rel="next" href="../Database/sqlite.html" class="nav-chapters next" title="Next chapter"
                aria-label="Next chapter" aria-keyshortcuts="Right">
                 <i class="fa fa-angle-right"></i>
@@ -211,17 +221,23 @@
 
 </div>
 
+
+
+
     <script type="text/javascript">
         window.playground_copyable = true;
     </script>
+
     <script src="../ace.js" type="text/javascript" charset="utf-8"></script>
     <script src="../editor.js" type="text/javascript" charset="utf-8"></script>
     <script src="../mode-rust.js" type="text/javascript" charset="utf-8"></script>
     <script src="../theme-dawn.js" type="text/javascript" charset="utf-8"></script>
     <script src="../theme-tomorrow_night.js" type="text/javascript" charset="utf-8"></script>
+
     <script src="../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
     <script src="../mark.min.js" type="text/javascript" charset="utf-8"></script>
     <script src="../searcher.js" type="text/javascript" charset="utf-8"></script>
+
 <script src="../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
 <script src="../highlight.js" type="text/javascript" charset="utf-8"></script>
 <script src="../book.js" type="text/javascript" charset="utf-8"></script>
@@ -231,5 +247,6 @@
     <script type="text/javascript" src="../assets/mermaid/mermaid-init.js"></script>
     <script type="text/javascript" src="../assets/smart-anchor.js"></script>
     <script type="text/javascript" src="../assets/pagetoc/sidebar.js"></script>
+
 </body>
 </html>
